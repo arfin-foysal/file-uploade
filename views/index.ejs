@@ -12,5 +12,10 @@
         <input type="file" name="mFile" id="" required  accept="image/png ,image/jpg,image/jpeg , image/svg+xml ,application/pdf "/>
         <input type="submit" value="upload">
     </form>
+    <h1>multipart</h1>
+    <form action="/multi" method="post" enctype="multipart/form-data">
+        <input type="file" name="mFiles" id="" required  accept="image/png ,image/jpg,image/jpeg , image/svg+xml ,application/pdf " multiple/>
+        <input type="submit" value="upload">
+    </form>
 </body>
 </html>

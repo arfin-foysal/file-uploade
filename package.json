@@ -11,6 +11,8 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.2",
-    "express-fileupload": "^1.2.1"
+    "express-fileupload": "^1.2.1",
+    "mongoose": "^6.1.7",
+    "multer": "^1.4.4"
   }
 }
